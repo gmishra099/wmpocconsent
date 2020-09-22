@@ -7,7 +7,7 @@ import javax.persistence.Id;
 import javax.persistence.Table;
 
 @Entity
-@Table(name = "CommSubscriptionConsent", schema="salesforce")
+@Table(name = "commsubscriptionconsent", schema="salesforce")
 
 public class Consent {
     @Id
