@@ -18,7 +18,7 @@ public class Consent {
     private String consentSFDC;
     
   
-    @Column(name = "ConsentGiverId")
+    @Column(name = "consentgiverid")
     private String consentGiverId;
 
 
@@ -50,6 +50,7 @@ public class Consent {
 	public void setConsentGiverId(String consentGiverId) {
 		this.consentGiverId = consentGiverId;
 	}
+
 
 
     
