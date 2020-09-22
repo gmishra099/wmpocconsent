@@ -27,7 +27,7 @@ public class Consent {
     @Column(name = "Name")
     private String name;
     
-    @Column(name = "ContactPointId")
+    @Column(name = "contactpointid")
     private String contactPointId;
     
     @Column(name = "Comm_sub__c")
